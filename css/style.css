@@ -1,0 +1,35 @@
+/* utilites */
+/* google font poppins import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: #264653;
+}
+nav{
+    background-color: #264653;
+}
+
+.section-title{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-item-text-details{
+    color: #E0E0E0;
+}
+
+
+.grayscale-img{
+    filter: grayscale(100%);
+}
