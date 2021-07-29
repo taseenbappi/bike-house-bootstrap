@@ -11,12 +11,13 @@
 
 body{
     overflow-x: hidden;
+    
 }
-
 
 header{
     background-color: #264653;
 }
+
 nav{
     background-color: #264653;
 }
@@ -25,11 +26,18 @@ nav{
     font-family: 'Poppins', sans-serif;
 }
 
+.newsletter-section{
+    
+    height: 400px;
+    width: 100%;
+    
+}
+
 .banner-item-text-details{
     color: #E0E0E0;
 }
 
-
+/* image filter */
 .grayscale-img{
     filter: grayscale(100%);
 }

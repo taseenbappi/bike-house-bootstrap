@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/e146e50005.js" crossorigin="anonymous"></script>
 </head>
@@ -20,7 +19,7 @@
         <!-- nav bar start here -->
         <nav class="container-fuild navbar navbar-expand-lg navbar-dark shadow fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Biker's House</a>
+                <a class="navbar-brand text-uppercase" href="#">Biker's House</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,6 +40,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#subscribe">Subscribe</a>
                         </li>
                         <li class="nav-item ms-5">
                             <a class="active  btn btn-danger" href="#" role="button">Login</a>
@@ -303,11 +305,11 @@
 
             <div class="row g-4">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <img class="img-fluid p-1" src="images/faq.png" alt="">
+                    <img class="img-fluid p-3" src="images/faq.png" alt="">
 
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion p-3" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -385,6 +387,66 @@
 
         </section>
         <!--FAQ end here -->
+
+        <!-- NEWSLETTER section start -->
+        <section class="newsletter-section container-fluid" style="background-image: url(images/newsletter-banner.jpg);
+        background-repeat: no-repeat; background-position: center; background-size: cover;" id="subscribe">
+            <div class="container  text-center py-5 ">
+                <h1 class="section-title fst-italic text-white">JOIN OUR NEWSLETTER</h1>
+                <p class="text-white">Subscribe to our newsletter to receive the latest news &
+                    updates from the world of motorcycle sport.</p>
+                <input type="email" class="form-control w-50 m-auto" placeholder="Enter your email">
+                <button type="submit" class="btn btn-danger mt-3">Submit</button>
+
+            </div>
+        </section>
+        <!-- NEWSLETTER section end -->
+
+        <!-- support section start here -->
+        <section class="pt-30 pb-30 bg-light ">
+            <div class="container py-3">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div>
+                            <div><i class="fas fa-truck-moving fs-1"></i></div>
+                            <div>
+                                <h5>Free Shipping</h5>
+                                <p>For orders from $50
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <div><i class="fas fa-headset fs-1"></i></i></div>
+                            <div>
+                                <h5>Support 24/7</h5>
+                                <p>Call us anytime</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <div><i class="fas fa-shield-virus fs-1"></i></div>
+                            <div>
+                                <h5>100% Safety</h5>
+                                <p>Only secure payments</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <div><i class="fas fa-tags fs-1"></i></div>
+                            <div>
+                                <h5>Hot Offers</h5>
+                                <p>Discounts up to 90%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- support section end here -->
     </main>
 
     <footer class="container-fluid bg-dark">
