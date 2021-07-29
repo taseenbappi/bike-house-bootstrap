@@ -9,9 +9,21 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cus-color: #E76F51;
+  }
+
 body{
     overflow-x: hidden;
     
+}
+
+.custom-button{
+    background-color: var(--cus-color);
+}
+
+.custom-color{
+    color: var(--cus-color);
 }
 
 header{
